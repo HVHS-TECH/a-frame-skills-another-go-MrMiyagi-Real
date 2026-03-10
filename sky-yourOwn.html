@@ -12,10 +12,13 @@
             <a-sky src="" color="lightblue"></a-sky>
             
             <a-box position="0 0 -4" rotation="0 45 0"></a-box>
-            <a-entity wasd-controls look-controls position="0 3 20" 
+            <a-entity camera wasd-controls look-controls position="0 3 20" 
             animation="
-            property:position; to: 0 3 0;
-            dur: 10000
+            property: position; 
+            from: 0 3 20;
+            to: 0 3 0;
+            dur: 10000;
+            
             "            
             ></a-entity>
         </a-scene>
